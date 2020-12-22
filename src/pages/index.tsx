@@ -23,7 +23,7 @@ const HomePage: React.FC = () => {
 
     if (loading) return <LoaderComp loading={loading} />
     return (
-        <div>
+        <div data-spy="scroll" data-target="#nav-part" data-offset="90">
             {/* Header */}
             <HeaderComp />
 
