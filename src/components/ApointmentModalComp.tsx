@@ -103,38 +103,12 @@ const ApointmentModalComp = () => {
                                   <div className="col-12 col-md-4">
                                     <div className="form-group">
                                       <label>pick your date & time</label>
-                                      <div className="datepicker">
+                                      <div className="datepick">
                                         <input
-                                          type="text"
+                                          type="date"
                                           id="datepicker"
                                           placeholder="dd/mm/yyyy hh.mm"
                                         />
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="col-12 col-md-6">
-                                    <div className="form-group">
-                                      <label>your country here</label>
-                                      <div className="country-select wrap">
-                                        <select>
-                                          <option label=" "></option>
-                                          <option value="1">Bangladesh</option>
-                                          <option value="2">USA</option>
-                                          <option value="3">UK</option>
-                                        </select>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="col-12 col-md-6">
-                                    <div className="form-group">
-                                      <label>your city here</label>
-                                      <div className="city-select wrap">
-                                        <select>
-                                          <option label=" "></option>
-                                          <option value="1">Dhaka</option>
-                                          <option value="2">Los Angeles</option>
-                                          <option value="3">Cambridge</option>
-                                        </select>
                                       </div>
                                     </div>
                                   </div>

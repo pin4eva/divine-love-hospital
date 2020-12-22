@@ -9,7 +9,11 @@ const HeaderComp: React.FC = () => {
       >
         <div className="container p-0">
           <a className="navbar-brand" href="#">
-            <h2 className="text-uppercase font-weight-bolder">Divine Love</h2>
+            <div className="heading logo-heading">
+              <h3 className=" text-uppercase font-weight-bolder">
+                Divine Love
+              </h3>
+            </div>
             {/* <img src="images/logo.png" className="img-fluid" alt="logo" /> */}
           </a>
           <button
@@ -32,28 +36,23 @@ const HeaderComp: React.FC = () => {
           >
             <ul className="navbar-nav m-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="#banner">
+                <a className="nav-link" href="#banner">
                   Home<span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">
-                  About Corona{" "}
+                  About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#symptoms">
-                  Symptoms
+                <a className="nav-link" href="#services">
+                  Services
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#prevention">
-                  Prevention
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#doctors">
-                  Doctors
+                <a className="nav-link" href="#contact">
+                  Contact Us
                 </a>
               </li>
             </ul>
@@ -78,3 +77,10 @@ const HeaderComp: React.FC = () => {
 };
 
 export default HeaderComp;
+
+const navItems = [
+  { name: "Home", id: "" },
+  { name: "About", id: "about" },
+  { name: "Services", id: "services" },
+  { name: "Contact Us", id: "contact" },
+];
