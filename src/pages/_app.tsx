@@ -23,9 +23,12 @@ function MyApp({ Component, pageProps }: AppProps) {
 
     const links = document.querySelectorAll("#navbarSupportedContent ul a");
 
-    for (const link of links) {
+    // for (const link of links) {
+    //   link.addEventListener("click", clickHandler);
+    // }
+    links.forEach((link) => {
       link.addEventListener("click", clickHandler);
-    }
+    });
 
     function clickHandler(e) {
       e.preventDefault();
