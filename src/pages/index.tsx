@@ -5,23 +5,25 @@ import CoronaCaseComp from 'components/CoronaCase'
 import CoronaPreventionComp from 'components/CoronaPreventionComp'
 import CoronaSymptomsComp from 'components/CoronaSymptomsComp'
 import DoctorsComp from 'components/Doctors'
+import ErrorComp from 'components/ErrorComp'
 import LatestUpdateComp from 'components/LatestUpdateComp'
 import LoaderComp from 'components/Loader'
 import React, { useEffect, useState } from 'react'
 import HeaderComp from '../components/HeaderComp'
 
 const HomePage: React.FC = () => {
-    const [loading, setLoading] = useState(false)
+    // const [loading, setLoading] = useState(false)
 
-    useEffect(() => {
-        if (!process.browser) {
-            setLoading(true)
-        } else {
-            setLoading(false)
-        }
-    }, [])
+    // useEffect(() => {
+    //     if (!process.browser) {
+    //         setLoading(true)
+    //     } else {
+    //         setLoading(false)
+    //     }
+    // }, [])
 
-    if (loading) return <LoaderComp loading={loading} />
+    // if (loading) return <LoaderComp loading={loading} />
+    return <ErrorComp />
     return (
         <div data-spy="scroll" data-target="#nav-part" data-offset="90">
             {/* Header */}

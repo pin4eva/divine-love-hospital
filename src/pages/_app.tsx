@@ -1,8 +1,10 @@
-import {AppProps} from "next/app"
+/* eslint-disable react/react-in-jsx-scope */
+import { AppProps } from "next/app"
 import "../styles/index.scss";
 import "jquery";
 import "animate.css/animate.min.css"
 import { useEffect } from "react";
+import "@fortawesome/fontawesome-free/css/all.css"
 
 if (process.browser) {
   require("jquery");
@@ -15,12 +17,12 @@ if (process.browser) {
 
 
 function MyApp({ Component, pageProps }: AppProps) {
-  
+
   useEffect(() => {
     require("../utils/slick.min.js")
-  require("../utils/SmoothScroll")
-      // require("../utils/custom")
-  },[])
+    require("../utils/SmoothScroll")
+    // require("../utils/custom")
+  }, [])
   return <Component {...pageProps} />;
 }
 
