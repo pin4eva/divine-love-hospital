@@ -84,7 +84,7 @@ const FooterComp: React.FC = () => {
                         +234 7061201748
                       </p>
 
-                      <p>www.divineloveclinics.com</p>
+                      <p>info@divineloveclinics.com</p>
                     </div>
                   </div>
                 </div>
