@@ -26,6 +26,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     // for (const link of links) {
     //   link.addEventListener("click", clickHandler);
     // }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 120d7f0d3122cdd6938c88c0aa4765add6bf3480
     links.forEach((link) => {
       link.addEventListener("click", clickHandler);
     });
@@ -52,7 +56,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           type="text/javascript"
           src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         ></script>
+<<<<<<< HEAD
         <title>Divine Love</title>
+=======
+        <title>Divin Love</title>
+>>>>>>> 120d7f0d3122cdd6938c88c0aa4765add6bf3480
       </Head>
       <Component {...pageProps} />
     </Fragment>
