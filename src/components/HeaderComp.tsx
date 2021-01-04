@@ -1,4 +1,5 @@
 import React from "react";
+import LogoComp from "./LogoComp";
 
 const HeaderComp: React.FC = () => {
   return (
@@ -9,11 +10,12 @@ const HeaderComp: React.FC = () => {
       >
         <div className="container p-0">
           <a className="navbar-brand" href="#">
-            <div className="heading logo-heading">
+            <LogoComp />
+            {/* <div className="heading logo-heading">
               <h3 className=" text-uppercase font-weight-bolder">
                 Divine Love
               </h3>
-            </div>
+            </div> */}
             {/* <img src="images/logo.png" className="img-fluid" alt="logo" /> */}
           </a>
           <button

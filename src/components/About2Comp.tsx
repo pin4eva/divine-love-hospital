@@ -17,18 +17,20 @@ const About2Comp = () => {
               <div className="heading">
                 <h2>About Us</h2>
               </div>
-
               <p className="cont-gap">
-                we are healthcare professionals interested in the provision of
-                quality medical services to our patients.our services includes;
-                General practice clinic,paediatrics, laboratory,General surgery
-                clinic, pharmacy,Anaesthetists.
+                We are healthcare professionals interested in the provision of
+                quality medical services to our patients.
               </p>
               <p>
                 our esteem values are to provide quick medical interventions,
                 maintain high professional intergrity, consider safety
                 precautions in task execution and maintain team healthcare
                 management.
+              </p>
+              <p>
+                Our services includes General practice clinic, Paediatrics,
+                Laboratory, General surgery clinic, Pharmacy, Anaesthetists and
+                periodic assesment of company staff through retainership
               </p>
             </div>
           </div>

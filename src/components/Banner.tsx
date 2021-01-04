@@ -24,12 +24,14 @@ const BannerComp: React.FC = () => {
                     </h1>
 
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Coronavirus disease (COVID-19) is an infectious disease
+                      caused by a newly discovered coronavirus. Most people
+                      infected with the COVID-19 virus will experience mild to
+                      moderate respiratory illness and recover without requiring
+                      special treatment.
                     </p>
                     <div className="btn-bar">
-                      <a href="#" className="">
+                      <a href="#prevention" className="">
                         How to Prevent?
                       </a>
                     </div>
@@ -64,9 +66,8 @@ const BannerComp: React.FC = () => {
                     </h1>
 
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida.
+                      Your safty is our piority. Stay safe, stay at home, wash
+                      your hands.
                     </p>
                     <div className="btn-bar">
                       <a href="#" className="">

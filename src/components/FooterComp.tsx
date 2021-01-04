@@ -1,4 +1,5 @@
 import React from "react";
+import LogoComp from "./LogoComp";
 
 const FooterComp: React.FC = () => {
   return (
@@ -8,19 +9,20 @@ const FooterComp: React.FC = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="cont-logo">
-                <a href="#">
-                  <div className="heading">
-                    <h2 className="text-light">Divine Love</h2>
+                <a href="#" className="d-flex">
+                  <LogoComp />
+                  <div className="heading ml-2">
+                    <h2 className="text-light">
+                      Divine Love Medical <br /> Clinic & Maternity{" "}
+                    </h2>
                   </div>
                 </a>
               </div>
               <div className="cont-txt">
-                <p className="cont-gap">
-                  we are healthcare professionals interested in the provision of
-                  quality medical services to our patients.our services
-                  includes; General practice clinic,paediatrics,
-                  laboratory,General surgery clinic, pharmacy,Anaesthetists.
-                </p>
+                <div className="cont-gap text-light">
+                  We are healthcare professionals interested in the provision of
+                  quality medical services to our patients.
+                </div>
 
                 <ul>
                   <li>
@@ -95,7 +97,7 @@ const FooterComp: React.FC = () => {
             <div className="row">
               <div className="col-lg-12 text-center">
                 <p>
-                  Copyright © 2020. All rights reserved by{" "}
+                  Copyright © {new Date().getFullYear()}. Divine Love Medicals
                   <a href="#">Designer</a>
                 </p>
               </div>
